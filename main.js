@@ -38,3 +38,4 @@ client.on('guildMemberRemove', member => {
     member.guild.channels.cache.get(config.greeting.channel).send(`${member.user.tag} a quitté la secte... 😢`)
 })
  
+client.login(process.env.TOKEN);
