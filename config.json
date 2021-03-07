@@ -1,7 +1,14 @@
 {
-    "prefix": "y!",
-    "greeting": {
-        "channel": "817886372722901072",
-        "role": "817887300083253249"
-    }
+    "DEFAULTS": {
+        "AUTHORS": [],
+        "ACTIVITY_TEXT": "YVES",
+        "GUILD_ID": "",
+        "VOICE_CHANNEL": "",
+        "MIN_STAFF_ROLE": ""
+    },
+    "FILES": {
+        "WELCOME": "default_files/<welcome-voice>.mp3",
+        "STAFF": "default_files/<staff-voice>.mp3"
+    },
+    "TOKEN": "ODE3ODcyNzA5MzQ5NjcxMDAz.YEP1UQ.7R9fwYsYiLSDmfEcivyBiaVADwg"
 }
